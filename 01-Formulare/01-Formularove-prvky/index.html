@@ -22,6 +22,18 @@
 	-->
 
 
+<form action="http://formular.itgirls.cz" method="post">
+
+	<label for="jmeno">Jméno</label>
+	<input type="text" 
+	name="jmeno" 
+	id="jmeno" 
+	size="10" 
+	maxlength="10"
+	placeholder="Křestní jméno"
+	autofocus
+	required>
+
 
 		<!--
 			INPUT
@@ -45,7 +57,7 @@
 			for: id formulářového prvku, pro který je toto popisek
 		-->
 
-
+<input type="submit" value="Odeslat">
 
 		<!--
 			Tlačítko - lze vytvořit dvěma způsoby
@@ -69,7 +81,8 @@
 			value: text na tlačítku
 		-->
 
-
+		<input type="submit" value="Odeslat">
+		<hr>
 
 		<!--
 			Další typy vstupních polí:
@@ -80,7 +93,8 @@
 			NUMBER - číslo
 			Další atributy: min, max, step
 		-->
-
+<label for="cislo">číslo</label>
+<input type="number" name="cislo" id="cislo">
 
 		<!--
 			EMAIL - emailová adresa
@@ -186,6 +200,6 @@
 
 
 
-
+</form>
 </body>
 </html>
